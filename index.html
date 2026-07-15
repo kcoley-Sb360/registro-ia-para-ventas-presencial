@@ -308,6 +308,25 @@
       display: none;
     }
 
+     /* ── Trust block ── */
+    .trust-block {
+      background: #FAFAFA;
+      border: 1px solid #E5E7EB;
+      border-radius: 10px;
+      padding: 14px;
+      margin-top: 12px;
+      font-size: 13px;
+      color: #6B7280;
+      line-height: 1.5;
+    }
+
+    .trust-block strong {
+      display: block;
+      color: #4B5563;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
     /* ── Submit button ── */
     .btn-submit {
       width: 100%;
@@ -483,6 +502,14 @@
             </span>
           </label>
           <div class="checkbox-error" id="err-consent">Debes aceptar el tratamiento de datos para continuar</div>
+
+          <!-- Trust block -->
+          <div class="trust-block">
+            <strong>🔒 Proceso simple y seguro</strong>
+            ‣ Al enviar tus datos, Fernando de nuestro equipo te escribe por WhatsApp para coordinar el pago.<br>
+            ‣ Aceptamos pagos por transferencia bancaria y tarjetas.<br>
+            ‣ Tus datos están protegidos y solo se usan para coordinar tu inscripción al bootcamp.
+          </div>
         </div>
 
         <button class="btn-submit" id="btn-submit" onclick="handleSubmit()">
@@ -498,7 +525,7 @@
       <div class="ty-icon">
         <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
       </div>
-      <div class="ty-title">¡Gracias por solicitar tu inscripción<br/>al Bootcamp IA para Ventas!</div>
+      <div class="ty-title">¡Gracias por solicitar tu inscripción<br/>al Bootcamp IA para Ventas - Presencial!</div>
       <div class="ty-body">
         Nuestro equipo te contactará por <strong>WhatsApp o correo</strong> para confirmar disponibilidad y coordinar el pago.
       </div>
